@@ -10,7 +10,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #020936;
     color: #fff;
     padding: 10px;
 }
@@ -47,7 +47,7 @@ section {
 
 
 .home-section {
-    background: url('1.JPG') center fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('1.jpg') center fixed;
     background-size: cover;
     height: 100vh;
     display: flex;
@@ -58,7 +58,7 @@ section {
 }
 
 .about-section {
-    background: url('2.jpg') center fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('2.jpg') center fixed;
     background-size: cover;
     height: 100vh;
     display: flex;
@@ -69,7 +69,7 @@ section {
 }
 
 .portfolio-section {
-    background: url('3.jpg') center fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('3.jpg') center fixed;
     background-size: cover;
     height: 100vh;
     display: flex;
@@ -80,7 +80,7 @@ section {
 }
 
 .resume-section {
-    background: url('4.jpg') center fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('4.jpg') center fixed;
     background-size: cover;
     height: 100vh;
     display: flex;
@@ -91,7 +91,7 @@ section {
 }
 
 .blog-section {
-    background: url('5.jpg') center fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('5.jpg') center fixed;
     background-size: cover;
     height: 100vh;
     display: flex;
@@ -102,10 +102,11 @@ section {
 }
 
 .contact-section {
-    background: url('6.jpg') center fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('6.jpg') center fixed;
     background-size: cover;
-    height: 100vh;
+    height: 50vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -114,10 +115,5 @@ section {
 
 footer {
     text-align: center;
-    background-color: #333;
     color: #fff;
-    /* padding: 10px; */
-    position: fixed;
-    bottom: 0;
-    width: 100%;
 }
