@@ -80,7 +80,7 @@ span:is(#hello, #world) {
     align-items: center;
     /* justify-content: center; */
     text-align: ;
-    color: #fff;
+    color: #ffffff;
 }
 
 .portfolio-section {
