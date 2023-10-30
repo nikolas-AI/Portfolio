@@ -91,7 +91,7 @@ span:is(#hello, #world) {
     align-items: center;
     justify-content: flex-end;
     text-align: center;
-    color: #fff;
+    color: #ffffff;
 }
 
 .resume-section {
@@ -102,7 +102,7 @@ span:is(#hello, #world) {
     align-items: center;
     justify-content: flex-start;
     text-align: left;
-    color: #fff;
+    color: #ffffff;
 }
 
 .blog-section {
@@ -113,7 +113,7 @@ span:is(#hello, #world) {
     align-items: center;
     justify-content: flex-end;
     text-align: right;
-    color: #fff;
+    color: #ffffff;
 }
 
 .contact-section {
@@ -125,7 +125,7 @@ span:is(#hello, #world) {
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: #fff;
+    color: #ffffff;
 }
 
 footer {
