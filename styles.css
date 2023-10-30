@@ -8,10 +8,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background: #a3d7fe;
 }
 
 header {
-    background: #000000;
+    background: #130140;
     color: #fff;
     padding: 10px;
     position: fixed;
@@ -46,7 +47,7 @@ h1 {
     font-size: 30px;
 }
 
-span {
+span:is(#hello, #world) {
     font-size: 120px;
 }
 
@@ -61,62 +62,62 @@ span {
 
 
 .home-section {
-    background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.364)), url('1.JPG') center fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.103), rgba(0, 0, 0, 0.212)), url('6.png') center fixed;
     background-size: cover;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: start;
     /* text-align: center; */
-    color: #fff;
+    color: #21036c;
 }
 
 .about-section {
-    background: linear-gradient(to right, rgba(255, 253, 253, 0) 50%, rgba(0, 0, 0, 0.581) 50%), url('p2.jpg') center fixed;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.25) 50%, rgba(180, 176, 176, 0) 50%), url('5.png') center fixed;
     background-size: cover;
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: center;
-    text-align: center;
+    /* justify-content: center; */
+    text-align: ;
     color: #fff;
 }
 
 .portfolio-section {
-    background: linear-gradient(to right, rgba(255, 253, 253, 0) 50%, rgba(0, 0, 0, 0.581) 50%), url('abstract.jpg') center fixed;
+    background: linear-gradient(to right, rgba(255, 253, 253, 0) 50%, rgba(0, 0, 0, 0.25) 50%), url('none.jpg') center fixed;
     background-size: cover;
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     text-align: center;
     color: #fff;
 }
 
 .resume-section {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.581) 50%, rgba(255, 253, 253, 0) 50%), url('abstract2.jpg') center fixed;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.25) 50%, rgba(255, 253, 253, 0) 50%), url('none.jpg') center fixed;
     background-size: cover;
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: center;
-    text-align: center;
+    justify-content: flex-start;
+    text-align: left;
     color: #fff;
 }
 
 .blog-section {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.581) 50%, rgba(255, 253, 253, 0) 50%), url('abstract3.png') center fixed;
+    background: linear-gradient(to right, rgba(255, 253, 253, 0) 50%, rgba(0, 0, 0, 0.25) 50%), url('none.png') center fixed;
     background-size: cover;
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: center;
-    text-align: center;
+    justify-content: flex-end;
+    text-align: right;
     color: #fff;
 }
 
 .contact-section {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('6.jpg') center fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.175), rgba(0, 0, 0, 0.25)), url('none.jpg') center fixed;
     background-size: cover;
     height: 50vh;
     display: flex;
