@@ -5,7 +5,15 @@
     coloi {
     backgrod-size: cover;
     height: 0vfixed;
-    background-si
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+}
 
 footer {
     text-align: center;
