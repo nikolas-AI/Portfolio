@@ -86,7 +86,7 @@ span:is(#name){
     line-height: 0px;
 }
 span:is(#line){
-    font-weight: bold;
+    /* font-weight: bold; */
     font-size: 30px;
     color: rgb(255, 255, 255);
 }
