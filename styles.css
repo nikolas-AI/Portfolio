@@ -18,6 +18,7 @@ header {
     position: fixed;
     top: 0px;
     width: 100vw;
+    z-index: 999
 }
 
 nav ul {
@@ -49,17 +50,51 @@ h1 {
 
 span:is(#hello, #world) {
     font-size: 120px;
+    line-height: 110px;
 }
-
 #hello {
     font-weight: bold;
 }
+
+.typerwiter {
+    line-height: 0px;
+    font-size: 35px;
+}
+.auto-type {
+    color: white;
+}
+
+.name {
+    position: absolute;
+    right: 1%;
+    top: 40%;
+}
+.name > p:first-of-type {
+    font-size: 40px;
+    text-align: right;
+    line-height: 0px;
+}
+span:is(#name){
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+}
+#def {
+    font-size: 30px;
+    text-align: right;
+    line-height: 0px;
+}
+span:is(#line){
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
 .project {
     margin-bottom: 20px;
     border: 1px solid #ccc;
     padding: 10px;
 }
-
 
 .home-section {
     background: linear-gradient(rgba(0, 0, 0, 0.103), rgba(0, 0, 0, 0.212)), url('Media/6.png') center fixed;
