@@ -4,7 +4,11 @@
     posi:e: 50px;
     coloi {
     backgrod-size: cover;
-    height: 0vh;
+    height: 
+.resume-section {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.25) 50%, rgba(255, 253, 253, 0) 50%), url('Media/none.jpg') center fixed;
+    background-size: cover;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: flex-start;
