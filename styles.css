@@ -3,7 +3,10 @@
 margin: 0;
     padding: 0;
     background: #a3d7fe;
-}ckground: #130140d0;
+}
+
+header {
+    background: #130140d0;
     backdrop-filter: blur(8px);
     color: #fff;
     padding: 10px;
