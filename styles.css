@@ -1,6 +1,12 @@
 /* Basic styling, customize as needed */
-* 
-margin: 0;
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
     padding: 0;
     background: #a3d7fe;
 }
