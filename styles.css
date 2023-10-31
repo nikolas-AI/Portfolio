@@ -4,7 +4,15 @@
     posi:e: 50px;
     coloi {
     backgrod-size: cover;
-    height: 0vfixed;
+    height: 0vh;
+    display: center;
+    justify-content: flex-end;
+    text-align: right;
+    color: #ffffff;
+}
+
+.contact-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.175), rgba(0, 0, 0, 0.25)), url('Media/none.jpg') center fixed;
     background-size: cover;
     height: 50vh;
     display: flex;
