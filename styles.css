@@ -2,7 +2,15 @@
 }r {
     line
     posi:e: 50px;
-    coloi {
+    coloig
+
+.project {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.home-section {
     background: linear-gradient(rgba(0, 0, 0, 0.103), rgba(0, 0, 0, 0.212)), url('Media/6.png') center fixed;
     background-size: cover;
     height: 100vh;
