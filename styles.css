@@ -2,7 +2,13 @@
 }r {
     line
     posi:e: 50px;
-    coloig
+    coloight: 0px;
+}
+span:is(#line){
+    /* font-weight: bold; */
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
 
 .project {
     margin-bottom: 20px;
