@@ -3,7 +3,12 @@
     line
     posi:e: 50px;
     coloi {
-    background: linear-gradient(rgba(0, 0, 0, 0.103), ntent: start;
+    background: linear-gradient(rgba(0, 0, 0, 0.103), rgba(0, 0, 0, 0.212)), url('Media/6.png') center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
     /* text-align: center; */
     color: #21036c;
 }
