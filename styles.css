@@ -2,7 +2,12 @@
 }r {
     line
     posi:e: 50px;
-    coloight: 0px;
+    color: white;
+}
+#def {
+    font-size: 30px;
+    text-align: right;
+    line-height: 0px;
 }
 span:is(#line){
     /* font-weight: bold; */
