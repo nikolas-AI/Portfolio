@@ -1,4 +1,11 @@
-/* Basic styline;
+/* Basic styling, customize as needed */
+* 
+margin: 0tyle: none;
+    margincontent: center;
+}
+
+nav ul li {
+    display: inline;
     margin-right: 20px;
 }
 
