@@ -3,7 +3,14 @@
     line
     posi:e: 50px;
     coloi {
-    backgro ffffff;
+    backgro 50%, rgba(180, 176, 176, 0) 50%), url('Media/5.png') center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    text-align: ;
+    color: #ffffff;
 }
 
 .portfolio-section {
