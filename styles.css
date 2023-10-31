@@ -62,7 +62,7 @@ span:is(#hello, #world) {
 
 
 .home-section {
-    background: linear-gradient(rgba(0, 0, 0, 0.103), rgba(0, 0, 0, 0.212)), url('6.png') center fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.103), rgba(0, 0, 0, 0.212)), url('Media/6.png') center fixed;
     background-size: cover;
     height: 100vh;
     display: flex;
@@ -73,7 +73,7 @@ span:is(#hello, #world) {
 }
 
 .about-section {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.25) 50%, rgba(180, 176, 176, 0) 50%), url('5.png') center fixed;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.25) 50%, rgba(180, 176, 176, 0) 50%), url('Media/5.png') center fixed;
     background-size: cover;
     height: 100vh;
     display: flex;
@@ -84,7 +84,7 @@ span:is(#hello, #world) {
 }
 
 .portfolio-section {
-    background: linear-gradient(to right, rgba(255, 253, 253, 0) 50%, rgba(0, 0, 0, 0.25) 50%), url('none.jpg') center fixed;
+    background: linear-gradient(to right, rgba(255, 253, 253, 0) 50%, rgba(0, 0, 0, 0.25) 50%), url('Media/none.jpg') center fixed;
     background-size: cover;
     height: 100vh;
     display: flex;
@@ -95,7 +95,7 @@ span:is(#hello, #world) {
 }
 
 .resume-section {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.25) 50%, rgba(255, 253, 253, 0) 50%), url('none.jpg') center fixed;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.25) 50%, rgba(255, 253, 253, 0) 50%), url('Media/none.jpg') center fixed;
     background-size: cover;
     height: 100vh;
     display: flex;
@@ -106,7 +106,7 @@ span:is(#hello, #world) {
 }
 
 .blog-section {
-    background: linear-gradient(to right, rgba(255, 253, 253, 0) 50%, rgba(0, 0, 0, 0.25) 50%), url('none.png') center fixed;
+    background: linear-gradient(to right, rgba(255, 253, 253, 0) 50%, rgba(0, 0, 0, 0.25) 50%), url('Media/none.png') center fixed;
     background-size: cover;
     height: 100vh;
     display: flex;
@@ -117,7 +117,7 @@ span:is(#hello, #world) {
 }
 
 .contact-section {
-    background: linear-gradient(rgba(0, 0, 0, 0.175), rgba(0, 0, 0, 0.25)), url('none.jpg') center fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.175), rgba(0, 0, 0, 0.25)), url('Media/none.jpg') center fixed;
     background-size: cover;
     height: 50vh;
     display: flex;
