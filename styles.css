@@ -1,7 +1,11 @@
 /* Basic styl50px 20px;
 }r {
     line
-    posi:first-of-type {
+    position: absolute;
+    right: 4%;
+    top: 40%;
+}
+.name > p:first-of-type {
     font-size: 40px;
     text-align: right;
     line-height: 0px;
