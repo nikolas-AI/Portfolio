@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial;
     margin: 0;
     padding: 0;
     background: #a3d7fe;
@@ -22,8 +22,12 @@ header {
     z-index: 999
 }
 
-nav .logo {
+nav .logo  {
 position: absolute;
+}
+nav .logo a {
+    text-decoration: none;
+    color: white;
 }
 
 nav ul {
@@ -40,9 +44,9 @@ nav ul li {
     margin-right: 20px;
 }
 
-a {
+nav ul li a {
     text-decoration: none;
-    color: #fff;
+    color: #ffffff;
 }
 
 section {
@@ -102,7 +106,7 @@ span:is(#line){
 }
 
 .home-section {
-    background: linear-gradient(rgba(0, 0, 0, 0.103), rgba(0, 0, 0, 0.212)), url('Media/6.png') center fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.088), rgba(0, 0, 0, 0.212)), url('Media/6.png') center fixed;
     background-size: cover;
     height: 100vh;
     display: flex;
@@ -113,18 +117,18 @@ span:is(#line){
 }
 
 .about-section {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.25) 50%, rgba(180, 176, 176, 0) 50%), url('Media/5.png') center fixed;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.212) 50%, rgba(180, 176, 176, 0) 50%), url('Media/5.png') center fixed;
     background-size: cover;
     height: 100vh;
     display: flex;
     align-items: center;
-    /* justify-content: center; */
-    text-align: ;
+    font-family: Arial;
+    text-align: left;
     color: #ffffff;
 }
 
 .portfolio-section {
-    background: linear-gradient(to right, rgba(255, 253, 253, 0) 50%, rgba(0, 0, 0, 0.25) 50%), url('Media/none.jpg') center fixed;
+    background: linear-gradient(to right, rgba(255, 253, 253, 0) 50%, rgba(0, 0, 0, 0.212) 50%), url('Media/none.jpg') center fixed;
     background-size: cover;
     height: 100vh;
     display: flex;
@@ -135,7 +139,7 @@ span:is(#line){
 }
 
 .resume-section {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.25) 50%, rgba(255, 253, 253, 0) 50%), url('Media/none.jpg') center fixed;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.212) 50%, rgba(255, 253, 253, 0) 50%), url('Media/none.jpg') center fixed;
     background-size: cover;
     height: 100vh;
     display: flex;
@@ -146,7 +150,7 @@ span:is(#line){
 }
 
 .contact-section {
-    background: linear-gradient(rgba(0, 0, 0, 0.175), rgba(0, 0, 0, 0.25)), url('Media/none.jpg') center fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.212), rgba(0, 0, 0, 0.212)), url('Media/none.jpg') center fixed;
     background-size: cover;
     height: 50vh;
     display: flex;
