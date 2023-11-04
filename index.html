@@ -11,7 +11,9 @@
 
 <header>
     <nav id="desk-nav">
-        <div class="logo"><a href="#"><img src="Media/l2.png" alt="Logo"></a></div>
+        <div class="logo">
+            <a href="#"><img src="Media/l2.png" alt="Logo"></a>
+        </div>
         <ul class="nav-links">
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
@@ -19,6 +21,25 @@
             <li><a href="#resume">Resume</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="ham-logo">
+            <a href="#"><img src="Media/L2.png" alt="Logo"></a>
+        </div>
+        <div class="ham-menu">
+            <div class="ham-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#portfolio" onclick="toggleMenu()">Portfolio</a></li>
+                <li><a href="#resume" onclick="toggleMenu()">Resume</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
     </nav>
 </header>
 
