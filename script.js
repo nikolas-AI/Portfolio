@@ -21,3 +21,11 @@ var typed = new Typed(".auto-type", {
     backSpeed: 50,
     loop: true
 })
+
+
+function toggleMenu() {
+    const MENU = document.querySelector('.menu-links');
+    const ICON = document.querySelector('.ham-icon');
+    MENU.classList.toggle("open")
+    ICON.classList.toggle("open")
+}
