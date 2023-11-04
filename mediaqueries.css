@@ -1,9 +1,1 @@
 @media screen and (max-width: 1000px) {
-    #desk-nav {
-        display: none;
-    }
-
-    #hamburger-nav{
-        display: flex;
-    }
-}
