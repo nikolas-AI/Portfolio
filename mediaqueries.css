@@ -1,4 +1,30 @@
+@media screen and (max-width: 1200px) {
+
+    span:is(#hello, #world) {
+        font-size: 100px;
+        line-height: 90px;
+    }
+    
+    .typerwiter {
+        font-size: 35px;
+    }
+    
+    .info > p:first-of-type {
+        font-size: 35px;
+    }
+    span:is(#name){
+        font-size: 45px;
+    }
+    #def {
+        font-size: 27px;
+    }
+    span:is(#line){
+        font-size: 27px;
+    }
+}
+
 @media screen and (max-width: 1000px) {
+
     #desk-nav {
         display: none;
     }
@@ -28,5 +54,26 @@
     }
     span:is(#line){
         font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    .home-section {
+        background: linear-gradient(rgba(0, 0, 0, 0.088), rgba(0, 0, 0, 0.212)), url('Media/1sftd.png') center fixed;
+        background-size: cover;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        padding-left: 500px;
+        color: #21036c;
+    }
+    .info {
+        position: relative;
+        top: 0;
+        margin-left: 15px;
+    }
+    #def {
+        text-align: left;
     }
 }
