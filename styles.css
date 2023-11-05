@@ -207,7 +207,7 @@ span:is(#line){
 }
 
 .home-section {
-    background: linear-gradient(rgba(0, 0, 0, 0.088), rgba(0, 0, 0, 0.212)), url('Media/6.png') center fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.088), rgba(0, 0, 0, 0.212)), url('Media/1.png') center fixed;
     background-size: cover;
     height: 100vh;
     display: flex;
@@ -218,7 +218,7 @@ span:is(#line){
 }
 
 .about-section {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.212) 50%, rgba(180, 176, 176, 0) 50%), url('Media/5.png') center fixed;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.212) 50%, rgba(180, 176, 176, 0) 50%), url('Media/2.png') center fixed;
     background-size: cover;
     height: 100vh;
     display: flex;
