@@ -9,40 +9,24 @@
 
     span:is(#hello, #world) {
         font-size: 80px;
-        line-height: 70px;
+        line-height: 80px;
     }
     
     .typerwiter {
         line-height: 0px;
-        font-size: 35px;
-    }
-    .auto-type {
-        color: white;
+        font-size: 30px;
     }
     
-    .info {
-        position: absolute;
-        right: 4%;
-        top: 40%;
-    }
     .info > p:first-of-type {
-        font-size: 40px;
-        text-align: right;
-        line-height: 0px;
+        font-size: 30px;
     }
     span:is(#name){
-        font-weight: bold;
-        font-size: 50px;
-        color: white;
+        font-size: 40px;
     }
     #def {
-        font-size: 30px;
-        text-align: right;
-        line-height: 0px;
+        font-size: 25px;
     }
     span:is(#line){
-        /* font-weight: bold; */
-        font-size: 30px;
-        color: rgb(255, 255, 255);
+        font-size: 25px;
     }
 }
