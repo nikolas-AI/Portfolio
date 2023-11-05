@@ -6,4 +6,43 @@
     #hamburger-nav{
         display: flex;
     }
+
+    span:is(#hello, #world) {
+        font-size: 80px;
+        line-height: 70px;
+    }
+    
+    .typerwiter {
+        line-height: 0px;
+        font-size: 35px;
+    }
+    .auto-type {
+        color: white;
+    }
+    
+    .info {
+        position: absolute;
+        right: 4%;
+        top: 40%;
+    }
+    .info > p:first-of-type {
+        font-size: 40px;
+        text-align: right;
+        line-height: 0px;
+    }
+    span:is(#name){
+        font-weight: bold;
+        font-size: 50px;
+        color: white;
+    }
+    #def {
+        font-size: 30px;
+        text-align: right;
+        line-height: 0px;
+    }
+    span:is(#line){
+        /* font-weight: bold; */
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+    }
 }
