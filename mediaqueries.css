@@ -81,6 +81,7 @@
 @media screen and (max-width: 850px) {
 
     .home-section {
+        background: linear-gradient(rgba(0, 0, 0, 0.088), rgba(0, 0, 0, 0.212)), url('Media/1sftd.png') center fixed;
         padding-left: 400px;
     }
 }
