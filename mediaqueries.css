@@ -84,6 +84,7 @@
         background: linear-gradient(rgba(0, 0, 0, 0.088), rgba(0, 0, 0, 0.212)), url('Media/1sftd.png') center fixed;
         background-size: cover;
         flex-direction: column;
+        align-items: start;
         padding-left: 400px;
     }
 }
