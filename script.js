@@ -29,3 +29,4 @@ function toggleMenu() {
     MENU.classList.toggle("open")
     ICON.classList.toggle("open")
 }
+
