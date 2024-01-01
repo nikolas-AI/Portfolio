@@ -223,7 +223,7 @@ span:is(#line){
     display: flex;
     align-items: center;
     font-family: Arial;
-    text-align: left;
+    text-align: center;
     color: #ffffff;
 }
 
@@ -232,6 +232,7 @@ span:is(#line){
     font-weight: 100;
     line-height: 5px;
 }
+
 
 .about-section p span {
     font-size: 20px;
@@ -243,10 +244,15 @@ span:is(#line){
     text-align: justify;
 }
 
+.about-section h1 {
+    width: 40%;
+    text-align: center;
+    font-weight: 100;
+    color: #160243;
+}
 .about-section h3 {
     color: #160243;
     font-weight: 100;
-
 }
 
 .portfolio-section {
@@ -287,12 +293,27 @@ span:is(#line){
     font-size: 40px;
     font-weight: 100;
     line-height: 5px;
+    color: #160243;
 }
 
 .portfolio-section p {
-    width: 50%;
+    width: 60%;
     text-align: justify;
 } 
+.portfolio-section span {
+    color: #7139ff;
+    font-size: 20px;
+} 
+.portfolio-section div#para {
+    width: 50%;
+    text-align: end;
+}
+.portfolio-section div#para {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
 
 .resume-section {
     background: linear-gradient(to right, rgba(0, 0, 0, 0.212) 50%, rgba(255, 253, 253, 0) 50%), url('Media/none.jpg') center fixed;
@@ -304,6 +325,8 @@ span:is(#line){
     text-align: left;
     color: #ffffff;
 }
+
+
 
 .contact-section {
     background: linear-gradient(rgba(0, 0, 0, 0.212), rgba(0, 0, 0, 0.212)), url('Media/none.jpg') center fixed;
