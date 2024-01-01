@@ -333,6 +333,66 @@ span:is(#line){
     color: #160243;
 }
 
+/* Basic styling for the slider container */
+.slider-container {
+    width: 50%;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    border: 5px solid #3c1297;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+
+.slider-container img {
+    width: 70%;
+}
+
+/* Styling for the individual slides */
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+/* Styling for each certificate card */
+.certificate-card {
+    width: 100%;
+    flex: 0 0 auto;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    font-size: 20px;
+    color: #333;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .certificate-card {
+        padding: 10px;
+    }
+}
+
+/* utility class */
+.title {
+    color: #160243;
+}
+
 
 .contact-section {
     background: linear-gradient(rgba(255, 253, 253, 0), rgba(0, 0, 0, 0.212)), url('Media/none.jpg') center fixed;
