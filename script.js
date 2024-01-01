@@ -30,3 +30,24 @@ function toggleMenu() {
     ICON.classList.toggle("open")
 }
 
+let currentIndex = 0;
+
+    function changeSlide(n) {
+        currentIndex += n;
+        showSlides();
+    }
+
+    function showSlides() {
+        const slides = document.querySelector('.slides');
+        const certificateCards = document.querySelectorAll('.certificate-card');
+
+        if (currentIndex > certificateCards.length - 1) {
+            currentIndex = 0;
+        } else if (currentIndex < 0) {
+            currentIndex = certificateCards.length - 1;
+        }
+
+        const displacement = -currentIndex * 100 + '%';
+        slides.style.transform = 'translateX(' + displacement + ')';
+    }
+
