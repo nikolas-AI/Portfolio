@@ -242,6 +242,7 @@ span:is(#line){
 .about-section h3, .about-section p {
     width: 40%;
     text-align: justify;
+    text-decoration: underline;
 }
 
 .about-section h1 {
