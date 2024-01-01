@@ -16,7 +16,7 @@ html {
 }
 
 header {
-    background: #1a565b;
+    background: linear-gradient(90deg, #40e3e3,#924de1, #40e3e3);
     backdrop-filter: blur(8px);
     color: #fff;
     padding: 10px;
