@@ -1,21 +1,1936 @@
+@media screen and (max-width: 2810px) {
+    header {
+        width: 100vw;
+        height: 4.5vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* Desktop Nav */
+    nav .logo {
+        position: absolute;
+        left: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    nav .logo img {
+        height: 100px;
+    }
+
+    nav ul li {
+        margin-right: 50px;
+    }
+
+    nav ul li a {
+        font-size: 45px;
+    }
+
+
+    span:is(#hello, #world) {
+        font-size: 220px;
+        line-height: 200px;
+    }
+
+    #hello {
+        font-weight: lighter;
+        color: #ffffff;
+    }
+
+    .typerwiter {
+        line-height: 10px;
+        font-size: 70px;
+    }
+
+    .info>p:first-of-type {
+        font-size: 80px;
+    }
+
+    span:is(#name) {
+        font-weight: bold;
+        font-size: 100px;
+    }
+
+    #def {
+        font-size: 60px;
+    }
+
+    span:is(#line) {
+        font-size: 50px;
+    }
+
+
+
+    .about-section {
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.212) 50%, rgba(180, 176, 176, 0) 50%), url('Media/AI.png') center fixed;
+        background-size: cover;
+        height: calc(100%);
+        display: flex;
+        align-items: center;
+        font-family: Arial;
+        text-align: center;
+        color: #ffffff;
+        padding-top: 70px;
+        /* overflow: scroll; */
+    }
+
+    .about-section #aboutme {
+        font-size: 90px;
+        font-weight: 100;
+        line-height: 5px;
+        color: #21036c;
+    }
+
+    .about-section p span {
+        font-size: 50px;
+        color: #7139ff;
+    }
+
+    .about-section h1 {
+        width: 40%;
+        text-align: center;
+        font-weight: 100;
+    }
+
+    .about-section h3 {
+        font-size: 60px;
+    }
+
+    .portfolio-section {
+        background: linear-gradient(to right, rgba(255, 253, 253, 0) 50%, rgba(0, 0, 0, 0.212) 50%), url('Media/none.jpg') center fixed;
+        background-size: cover;
+        height: calc(100vh + 250px);
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        color: #ffffff;
+        position: relative;
+        padding: 0;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+
+    }
+
+    .portfolio-section::-webkit-scrollbar {
+        display: none;
+    }
+
+
+    .project-tile img {
+        width: 400px;
+        height: 400px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 3px 3px rgb(52, 52, 53);
+    }
+
+    .portfolio-section h1 {
+        font-size: 90px;
+        font-weight: 100;
+        line-height: 5px;
+        color: #21036c;
+    }
+
+    .portfolio-section p {
+        width: 80%;
+        text-align: justify;
+    }
+
+    .portfolio-section span {
+        color: #7139ff;
+        font-size: 50px;
+    }
+
+    .portfolio-section div#para {
+        width: 50%;
+        text-align: end;
+    }
+
+    .portfolio-section div#para {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .certificates-section {
+        background: linear-gradient(rgba(0, 0, 0, 0.212), rgba(0, 0, 0, 0.212)), url('Media/none.jpg') center fixed;
+        background-size: cover;
+        height: 120%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        color: #ffffff;
+        padding-top: 70px;
+    }
+
+    .certificates-section h1 {
+        font-size: 90px;
+        font-weight: 100;
+        line-height: 5px;
+        color: #21036c;
+    }
+
+    /* Basic styling for the slider container */
+    .slider-container {
+        width: 80%;
+        margin: auto;
+        overflow: hidden;
+        position: relative;
+        border: 5px solid #3c1297;
+        border-radius: 10px;
+        object-fit: cover;
+        min-height: 20%;
+    }
+
+
+    .slider-container img {
+        width: 65%;
+        max-height: 80%;
+        object-fit: contain;
+    }
+
+    /* Styling for each certificate card */
+    .certificate-card {
+        width: 100%;
+        flex: 0 0 auto;
+        box-sizing: border-box;
+        padding: 20px;
+        text-align: center;
+        background: #1d121d44;
+    }
+
+    /* Navigation buttons */
+    .prev,
+    .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -22px;
+        font-size: 20px;
+        color: #fbfbfb;
+        user-select: none;
+        font-size: 80px;
+    }
+
+    .next {
+        right: 0px;
+    }
+
+    /* utility class */
+    .title {
+        color: #21036c;
+        font-family: Arial;
+        font-size: 65px;
+        font-weight: 100;
+        line-height: 20px;
+    }
+
+
+
+    .contact-section {
+        background: linear-gradient(rgba(255, 253, 253, 0), rgba(0, 0, 0, 0.212)), url('Media/none.jpg') center fixed;
+        background-size: cover;
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-around;
+        color: #ffffff;
+        position: relative
+    }
+
+    .contact-section h1 {
+        font-size: 90px;
+    }
+
+    #contact img {
+        height: 100px;
+        width: 100px;
+        padding: 20px;
+    }
+
+    #contact img:hover {
+        transform: scale(1.2);
+    }
+
+
+
+    .resume .btn {
+        border: 2px solid rgb(5, 0, 0);
+        border-radius: 50px;
+        width: 270px;
+        height: 80px;
+        background: #21036c;
+        font-family: sans-serif;
+        font-size: 50px;
+        color: #ffffff;
+    }
+
+
+    footer {
+        text-align: center;
+        color: #0b0b0b;
+        font-size: 40px;
+    }
+
+    .contact-section p,
+    .certificates-section p,
+    .about-section p,
+    .portfolio-section p {
+        font-size: 50px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 2310px) {
+
+    .about-section {
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.212) 50%, rgba(180, 176, 176, 0) 50%), url('Media/AI.png') center fixed;
+        background-size: cover;
+        height: calc(100%);
+        display: flex;
+        align-items: center;
+        font-family: Arial;
+        text-align: center;
+        color: #ffffff;
+        /* overflow: scroll; */
+    }
+
+    .title {
+        color: #21036c;
+        font-family: Arial;
+        font-size: 60px;
+        font-weight: 100;
+        line-height: 50px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 2200px) {
+    header {
+        width: 100vw;
+        height: 4.2vw;
+    }
+
+    span:is(#hello, #world) {
+        font-size: 210px;
+        line-height: 190px;
+    }
+
+    .title {
+        color: #21036c;
+        font-family: Arial;
+        font-size: 60px;
+        font-weight: 100;
+        line-height: 50px;
+    }
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 2100px) {
+    header {
+        width: 100vw;
+        height: 4.2vw;
+        justify-content: end;
+    }
+
+    nav ul li {
+        margin-right: 50px;
+    }
+
+    
+
+    span:is(#hello, #world) {
+        font-size: 200px;
+        line-height: 190px;
+    }
+
+    .typerwiter {
+        line-height: 10px;
+        font-size: 65px;
+    }
+
+    .info>p:first-of-type {
+        font-size: 75px;
+    }
+
+    span:is(#name) {
+        font-weight: bold;
+        font-size: 90px;
+    }
+
+    #def {
+        font-size: 55px;
+    }
+
+    span:is(#line) {
+        font-size: 47px;
+    }
+
+    .title {
+        color: #21036c;
+        font-family: Arial;
+        font-size: 60px;
+        font-weight: 100;
+        line-height: 50px;
+    }
+
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 2000px) {
+    header {
+        width: 100vw;
+        height: 4.2vw;
+    }
+
+    nav ul li {
+        margin-right: 40px;
+    }
+
+    span:is(#hello, #world) {
+        font-size: 200px;
+        line-height: 190px;
+    }
+
+    .info>p {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 140px;
+        margin: -10px;
+    }
+
+    .info>p:first-of-type {
+        font-size: 70px;
+    }
+
+    span:is(#name) {
+        font-weight: bold;
+        font-size: 100px;
+    }
+
+    #def {
+        font-size: 50px;
+    }
+
+
+    .home-section {
+        background: linear-gradient(rgba(0, 0, 0, 0.088), rgba(0, 0, 0, 0.212)), url('Media/1m.png') center fixed;
+        background-size: cover;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        /* text-align: center; */
+        color: #21036c;
+    }
+
+    .about-section {
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.212) 50%, rgba(180, 176, 176, 0) 50%), url('Media/AI.png') center fixed;
+        background-size: cover;
+        height: calc(100%);
+        display: flex;
+        align-items: center;
+        font-family: Arial;
+        text-align: center;
+        color: #ffffff;
+        /* overflow: scroll; */
+    }
+
+    .about-section #aboutme {
+        font-size: 80px;
+        font-weight: 100;
+        line-height: 5px;
+        color: #21036c;
+    }
+
+    .about-section p span {
+        color: #7139ff;
+    }
+
+    .about-section h1 {
+        width: 40%;
+        text-align: center;
+        font-weight: 100;
+    }
+
+    .about-section h3 {
+        font-size: 55px;
+    }
+
+    .project-tile img {
+        width: 380px;
+        height: 380px;
+    }
+
+    .portfolio-section h1 {
+        font-size: 80px;
+    }
+
+
+
+    .certificates-section {
+        background: linear-gradient(rgba(0, 0, 0, 0.212), rgba(0, 0, 0, 0.212)), url('Media/none.jpg') center fixed;
+        background-size: cover;
+        height: 120%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        color: #ffffff;
+        padding-top: 70px;
+    }
+
+    .certificates-section h1 {
+        font-size: 80px;
+        font-weight: 100;
+        line-height: 5px;
+        color: #21036c;
+    }
+
+    /* utility class */
+    .title {
+        font-size: 55px;
+        font-weight: 100;
+        line-height: 50px;
+    }
+
+    .contact-section {
+        background: linear-gradient(rgba(255, 253, 253, 0), rgba(0, 0, 0, 0.212)), url('Media/none.jpg') center fixed;
+        background-size: cover;
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-around;
+        color: #ffffff;
+        position: relative
+    }
+
+    .contact-section h1 {
+        font-size: 80px;
+    }
+
+    .resume .btn {
+        border: 2px solid rgb(5, 0, 0);
+        border-radius: 50px;
+        width: 240px;
+        height: 80px;
+        background: #21036c;
+        font-family: sans-serif;
+        font-size: 35px;
+        color: #ffffff;
+    }
+
+    .contact-section p,
+    .certificates-section p,
+    .about-section p,
+    .portfolio-section p {
+        font-size: 47px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1900px) {
+    header {
+        justify-content: end;
+    }
+
+    nav .logo img {
+        height: 90px;
+    }
+
+    nav ul li {
+        margin-right: 20px;
+    }
+
+    nav ul li a {
+        font-size: 40px;
+    }
+
+    span:is(#hello, #world) {
+        font-size: 200px;
+        line-height: 200px;
+    }
+
+    .typerwiter {
+        line-height: 10px;
+        font-size: 67px;
+    }
+
+    .info>p:first-of-type {
+        font-size: 75px;
+    }
+
+    span:is(#name) {
+        font-weight: bold;
+        font-size: 95px;
+    }
+
+    #def {
+        font-size: 50px;
+    }
+
+    span:is(#line) {
+        font-size: 45px;
+    }
+
+
+
+    .about-section {
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.212) 50%, rgba(180, 176, 176, 0) 50%), url('Media/AI.png') center fixed;
+        background-size: cover;
+        height: calc(100%);
+        display: flex;
+        align-items: center;
+        font-family: Arial;
+        text-align: center;
+        color: #ffffff;
+        padding-top: 70px;
+        /* overflow: scroll; */
+    }
+
+    .about-section #aboutme {
+        font-size: 75px;
+        font-weight: 100;
+        line-height: 3px;
+        color: #21036c;
+    }
+
+    .about-section h3 {
+        font-size: 50px;
+    }
+
+    .about-section p span {
+        line-height: 1px;
+    }
+
+    .about-section p span {
+        color: #7139ff;
+        font-size: 45px;
+    }
+
+    .portfolio-section {
+        background: linear-gradient(to right, rgba(255, 253, 253, 0) 50%, rgba(0, 0, 0, 0.212) 50%), url('Media/none.jpg') center fixed;
+        background-size: cover;
+        height: calc(100%);
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        color: #ffffff;
+        position: relative;
+        padding: 0;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+
+    }
+
+    .portfolio-section::-webkit-scrollbar {
+        display: none;
+    }
+
+    .project-tile img {
+        width: 380px;
+        height: 380px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 3px 3px rgb(52, 52, 53);
+    }
+
+    .portfolio-section h1 {
+        font-size: 75px;
+        font-weight: 100;
+        line-height: 3px;
+        color: #21036c;
+    }
+
+    .portfolio-section p {
+        width: 80%;
+        text-align: justify;
+    }
+
+    .portfolio-section span {
+        line-height: 1px;
+    }
+
+    .portfolio-section span {
+        color: #7139ff;
+        font-size: 45px;
+    }
+
+    .portfolio-section div#para {
+        width: 50%;
+        text-align: end;
+    }
+
+    .portfolio-section div#para {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .certificates-section {
+        background: linear-gradient(rgba(0, 0, 0, 0.212), rgba(0, 0, 0, 0.212)), url('Media/none.jpg') center fixed;
+        background-size: cover;
+        height: 120%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        color: #ffffff;
+        padding-top: 70px;
+    }
+
+    .certificates-section h1 {
+        font-size: 75px;
+        font-weight: 100;
+        line-height: 3px;
+        color: #21036c;
+    }
+
+    /* Basic styling for the slider container */
+    .slider-container {
+        width: 80%;
+        margin: auto;
+        overflow: hidden;
+        position: relative;
+        border: 5px solid #3c1297;
+        border-radius: 10px;
+        object-fit: cover;
+        min-height: 20%;
+    }
+
+    .slider-container img {
+        width: 65%;
+        max-height: 80%;
+        object-fit: contain;
+    }
+
+    /* Styling for each certificate card */
+    .certificate-card {
+        width: 100%;
+        flex: 0 0 auto;
+        box-sizing: border-box;
+        padding: 20px;
+        text-align: center;
+        background: #1d121d44;
+    }
+
+    /* Navigation buttons */
+    .prev,
+    .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -22px;
+        font-size: 20px;
+        color: #fbfbfb;
+        user-select: none;
+        font-size: 65px;
+    }
+
+
+    /* utility class */
+    .title {
+        color: #21036c;
+        font-family: Arial;
+        font-size: 50px;
+        font-weight: 100;
+        line-height: 40px;
+    }
+
+
+
+    .contact-section {
+        background: linear-gradient(rgba(255, 253, 253, 0), rgba(0, 0, 0, 0.212)), url('Media/none.jpg') center fixed;
+        background-size: cover;
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-around;
+        color: #ffffff;
+        position: relative
+    }
+
+    .contact-section h1 {
+        font-size: 75px;
+    }
+
+    #contact img {
+        height: 100px;
+        width: 100px;
+        padding: 20px;
+    }
+
+    #contact img:hover {
+        transform: scale(1.2);
+    }
+
+    .resume .btn {
+        border: 2px solid rgb(5, 0, 0);
+        border-radius: 50px;
+        width: 240px;
+        height: 80px;
+        background: #21036c;
+        font-family: sans-serif;
+        font-size: 35px;
+        color: #ffffff;
+    }
+
+    footer {
+        text-align: center;
+        color: #0b0b0b;
+        font-size: 30px;
+    }
+
+    .contact-section p,
+    .certificates-section p,
+    .about-section p,
+    .portfolio-section p {
+        font-size: 40px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1750px) {
+    header {
+        justify-content: end;
+    }
+
+    nav .logo img {
+        height: 70px;
+    }
+
+    nav ul li {
+        margin-right: 10px;
+    }
+
+    nav ul li a {
+        font-size: 33px;
+    }
+
+    span:is(#hello, #world) {
+        font-size: 175px;
+        line-height: 170px;
+    }
+
+    .typerwiter {
+        line-height: 10px;
+        font-size: 60px;
+    }
+
+    .info>p {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 120px;
+        margin: -10px;
+    }
+
+    .info>p:first-of-type {
+        font-size: 65px;
+    }
+
+    span:is(#name) {
+        font-weight: bold;
+        font-size: 80px;
+    }
+
+    #def {
+        font-size: 43px;
+    }
+
+    span:is(#line) {
+        font-size: 40px;
+    }
+
+    .about-section {
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.212) 50%, rgba(180, 176, 176, 0) 50%), url('Media/AI.png') center fixed;
+        background-size: cover;
+        height: calc(100%);
+        display: flex;
+        align-items: center;
+        font-family: Arial;
+        text-align: center;
+        color: #ffffff;
+        padding-top: 70px;
+        /* overflow: scroll; */
+    }
+
+    .about-section #aboutme {
+        font-size: 70px;
+        font-weight: 100;
+        line-height: 3px;
+        color: #21036c;
+    }
+
+    .about-section p span {
+        font-size: 42px;
+        line-height: 3px;
+    }
+
+    .about-section h3 {
+        font-size: 45px;
+    }
+
+    .portfolio-section {
+        background: linear-gradient(to right, rgba(255, 253, 253, 0) 50%, rgba(0, 0, 0, 0.212) 50%), url('Media/none.jpg') center fixed;
+        background-size: cover;
+        height: calc(100%);
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        color: #ffffff;
+        position: relative;
+        padding: 0;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+
+    }
+
+    .portfolio-section::-webkit-scrollbar {
+        display: none;
+    }
+
+    .project-tile img {
+        width: 300px;
+        height: 300px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 3px 3px rgb(52, 52, 53);
+    }
+
+    .portfolio-section h1 {
+        font-size: 70px;
+        font-weight: 100;
+        line-height: 3px;
+        color: #21036c;
+    }
+
+    .portfolio-section p {
+        width: 80%;
+        text-align: justify;
+    }
+
+
+    .portfolio-section div#para {
+        width: 50%;
+        text-align: end;
+    }
+
+    .portfolio-section div#para {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .certificates-section {
+        background: linear-gradient(rgba(0, 0, 0, 0.212), rgba(0, 0, 0, 0.212)), url('Media/none.jpg') center fixed;
+        background-size: cover;
+        height: 120%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        color: #ffffff;
+        padding-top: 70px;
+    }
+
+    .certificates-section h1 {
+        font-size: 70px;
+        font-weight: 100;
+        line-height: 3px;
+        color: #21036c;
+    }
+
+    /* Basic styling for the slider container */
+    .slider-container {
+        width: 80%;
+        margin: auto;
+        overflow: hidden;
+        position: relative;
+        border: 5px solid #3c1297;
+        border-radius: 10px;
+        object-fit: cover;
+        min-height: 20%;
+    }
+
+
+    .slider-container img {
+        width: 65%;
+        max-height: 80%;
+        object-fit: contain;
+    }
+
+    /* Styling for each certificate card */
+    .certificate-card {
+        width: 100%;
+        flex: 0 0 auto;
+        box-sizing: border-box;
+        padding: 20px;
+        text-align: center;
+        background: #1d121d44;
+    }
+
+    /* Navigation buttons */
+    .prev,
+    .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -22px;
+        font-size: 20px;
+        color: #fbfbfb;
+        user-select: none;
+        font-size: 65px;
+    }
+
+
+    /* utility class */
+    .title {
+        color: #21036c;
+        font-family: Arial;
+        font-size: 45px;
+        font-weight: 100;
+        line-height: 45px;
+    }
+
+    .contact-section {
+        background: linear-gradient(rgba(255, 253, 253, 0), rgba(0, 0, 0, 0.212)), url('Media/none.jpg') center fixed;
+        background-size: cover;
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-around;
+        color: #ffffff;
+        position: relative
+    }
+
+    .contact-section h1 {
+        font-size: 70px;
+    }
+
+    #contact img {
+        height: 97px;
+        width: 97px;
+        padding: 20px;
+    }
+
+    #contact img:hover {
+        transform: scale(1.2);
+    }
+
+    .resume .btn {
+        border: 2px solid rgb(5, 0, 0);
+        border-radius: 50px;
+        width: 230px;
+        height: 70px;
+        background: #21036c;
+        font-family: sans-serif;
+        font-size: 30px;
+        color: #ffffff;
+    }
+
+    footer {
+        text-align: center;
+        color: #0b0b0b;
+        font-size: 30px;
+    }
+
+    .contact-section p,
+    .certificates-section p,
+    .about-section p,
+    .portfolio-section p {
+        font-size: 37px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1625px) {
+    header {
+        justify-content: center;
+    }
+
+    nav .logo img {
+        height: 50px;
+    }
+
+    nav ul li {
+        margin-right: 10px;
+    }
+
+    nav ul li a {
+        font-size: 1.5rem;
+    }
+
+    span:is(#hello, #world) {
+        font-size: 140px;
+        line-height: 130px;
+    }
+
+    .typerwiter {
+        line-height: 10px;
+        font-size: 45px;
+    }
+
+    .info>p {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 120px;
+        margin: -10px;
+    }
+
+    .info>p:first-of-type {
+        font-size: 65px;
+    }
+
+    span:is(#name) {
+        font-weight: bold;
+        font-size: 80px;
+    }
+
+    #def {
+        font-size: 40px;
+    }
+
+    span:is(#line) {
+        font-size: 38px;
+    }
+
+    .home-section {
+        background: linear-gradient(rgba(0, 0, 0, 0.088), rgba(0, 0, 0, 0.212)), url('Media/1.png') center fixed;
+        background-size: cover;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        /* text-align: center; */
+        color: #21036c;
+    }
+
+    .about-section {
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.212) 50%, rgba(180, 176, 176, 0) 50%), url('Media/AI.png') center fixed;
+        background-size: cover;
+        height: calc(100%);
+        display: flex;
+        align-items: center;
+        font-family: Arial;
+        text-align: center;
+        color: #ffffff;
+        padding-top: 70px;
+        /* overflow: scroll; */
+    }
+
+    .about-section #aboutme {
+        font-size: 50px;
+        font-weight: 100;
+        line-height: 3px;
+        color: #21036c;
+    }
+
+    .about-section p span {
+        font-size: 33px;
+        line-height: 2px;
+    }
+
+    .about-section h3 {
+        font-size: 35px;
+    }
+
+    .portfolio-section {
+        background: linear-gradient(to right, rgba(255, 253, 253, 0) 50%, rgba(0, 0, 0, 0.212) 50%), url('Media/none.jpg') center fixed;
+        background-size: cover;
+        height: calc(100%);
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        color: #ffffff;
+        position: relative;
+        padding: 0;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+
+    }
+
+    .portfolio-section::-webkit-scrollbar {
+        display: none;
+    }
+
+    .project-tile img {
+        width: 270px;
+        height: 270px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 3px 3px rgb(52, 52, 53);
+    }
+
+    .portfolio-section h1 {
+        font-size: 50px;
+        font-weight: 100;
+        line-height: 3px;
+        color: #21036c;
+    }
+
+    .portfolio-section p {
+        width: 80%;
+        text-align: justify;
+    }
+
+    .portfolio-section span {
+        font-size: 33px;
+    }
+
+    .portfolio-section div#para {
+        width: 50%;
+        text-align: end;
+    }
+
+    .portfolio-section div#para {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .certificates-section {
+        background: linear-gradient(rgba(0, 0, 0, 0.212), rgba(0, 0, 0, 0.212)), url('Media/none.jpg') center fixed;
+        background-size: cover;
+        height: 120%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        color: #ffffff;
+        padding-top: 70px;
+    }
+
+    .certificates-section h1 {
+        font-size: 50px;
+        font-weight: 100;
+        line-height: 3px;
+        color: #21036c;
+    }
+
+    /* Basic styling for the slider container */
+    .slider-container {
+        width: 80%;
+        margin: auto;
+        overflow: hidden;
+        position: relative;
+        border: 5px solid #3c1297;
+        border-radius: 10px;
+        object-fit: cover;
+        min-height: 20%;
+    }
+
+
+    .slider-container img {
+        width: 65%;
+        max-height: 80%;
+        object-fit: contain;
+    }
+
+    /* Styling for each certificate card */
+    .certificate-card {
+        width: 100%;
+        flex: 0 0 auto;
+        box-sizing: border-box;
+        padding: 20px;
+        text-align: center;
+        background: #1d121d44;
+    }
+
+    /* Navigation buttons */
+    .prev,
+    .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -22px;
+        font-size: 20px;
+        color: #fbfbfb;
+        user-select: none;
+        font-size: 65px;
+    }
+
+
+    /* utility class */
+    .title {
+        color: #21036c;
+        font-family: Arial;
+        font-size: 35px;
+        font-weight: 100;
+        line-height: 45px;
+    }
+
+    .contact-section {
+        background: linear-gradient(rgba(255, 253, 253, 0), rgba(0, 0, 0, 0.212)), url('Media/none.jpg') center fixed;
+        background-size: cover;
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-around;
+        color: #ffffff;
+        position: relative
+    }
+
+    .contact-section h1 {
+        font-size: 50px;
+    }
+
+    #contact img {
+        height: 90px;
+        width: 90px;
+        padding: 17px;
+    }
+
+    #contact img:hover {
+        transform: scale(1.2);
+    }
+
+    .resume .btn {
+        border: 2px solid rgb(5, 0, 0);
+        border-radius: 50px;
+        width: 200px;
+        height: 60px;
+        background: #21036c;
+        font-family: sans-serif;
+        font-size: 30px;
+        color: #ffffff;
+    }
+
+    footer {
+        text-align: center;
+        color: #0b0b0b;
+        font-size: 20px;
+    }
+
+    .contact-section p,
+    .certificates-section p,
+    .about-section p,
+    .portfolio-section p {
+        font-size: 30px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1500px) {
+
+    * {
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+    }
+
+    body {
+        font-family: Arial;
+        margin: 0;
+        padding: 0;
+        background: #93d8ff;
+    }
+
+    html {
+        /* min-width: 730px; */
+        font-size: 1em;
+    }
+
+    header {
+        background: linear-gradient(90deg, #40e3e3, #924de1, #40e3e3);
+        backdrop-filter: blur(8px);
+        color: #fff;
+        padding: 10px;
+        position: fixed;
+        top: 0px;
+        width: 100vw;
+        z-index: 999;
+        height: 40px;
+        font-size: 1.5rem;
+
+    }
+
+    /* Desktop Nav */
+    nav .logo a {
+        text-decoration: none;
+        color: white;
+    }
+
+    nav .logo img {
+        height: 50px;
+    }
+
+    nav .logo img:hover {
+        cursor: default;
+    }
+
+    nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    nav ul li {
+        display: inline;
+        margin-right: 20px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: #ffffff;
+        transition: all .5s;
+        text-decoration-color: #21036c;
+        font-size: 20px;
+    }
+
+    nav ul li a:hover {
+        color: #21036c;
+        text-decoration: underline;
+        text-underline-offset: 5px;
+    }
+
+
+    /* Mobile  Nav */
+    nav .ham-logo img {
+        height: 50px;
+        position: absolute;
+        top: -5px;
+        left: 7px;
+    }
+
+    #hamburger-nav {
+        display: none;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 15px;
+
+    }
+
+    .ham-menu {
+        position: relative;
+        display: inline-block;
+    }
+
+    .ham-icon {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 24px;
+        width: 30px;
+        cursor: pointer;
+    }
+
+    .ham-icon span {
+        width: 100%;
+        height: 4px;
+        border-radius: 5px;
+        background: rgb(255, 255, 255);
+        transition: all 0.5s;
+    }
+
+    .menu-links {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        background-color: rgb(255, 255, 255);
+        width: fit-content;
+        max-height: 0;
+        overflow: hidden;
+        list-style: none;
+        color: rgb(255, 255, 255);
+        margin-top: 5px;
+        border-radius: 10px;
+        transition: all 0.3;
+    }
+
+    .menu-links a {
+        display: block;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        color: #160243;
+        transition: all 0.3s;
+        font-size: 1.5rem;
+    }
+
+    .menu-links.open {
+        max-height: 500px;
+    }
+
+    .ham-icon.open span:first-child {
+        transform: rotate(45deg) translate(10px, 4px);
+    }
+
+    .ham-icon.open span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .ham-icon.open span:last-child {
+        transform: rotate(-45deg) translate(10px, -3px);
+    }
+
+    .ham-icon span:first-child {
+        transform: none;
+    }
+
+    .ham-icon span:first-child {
+        opacity: 1;
+    }
+
+    .ham-icon span:first-child {
+        transform: none;
+    }
+
+
+
+    section {
+        padding: 50px 20px;
+    }
+
+
+    span:is(#hello, #world) {
+        font-size: 120px;
+        line-height: 110px;
+    }
+
+    #hello {
+        font-weight: lighter;
+        color: #ffffff;
+    }
+
+    .typerwiter {
+        line-height: 0px;
+        font-size: 35px;
+    }
+
+    .auto-type {
+        color: white;
+    }
+
+    .info {
+        position: absolute;
+        right: 4%;
+        top: 45%;
+    }
+    
+    .info > p {
+        display: block;
+        height: 20px;
+    }
+    
+    .info>p:first-of-type {
+        font-size: 40px;
+        text-align: right;
+        line-height: 0px;
+    }
+    
+    span:is(#name) {
+        font-weight: bold;
+        font-size: 50px;
+        color: white;
+    }
+    
+    #def {
+        font-size: 30px;
+        text-align: right;
+        line-height: 0px;
+    }
+
+    span:is(#line) {
+        /* font-weight: bold; */
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+    }
+
+
+    .home-section {
+        background: linear-gradient(rgba(0, 0, 0, 0.088), rgba(0, 0, 0, 0.212)), url('Media/1.png') center fixed;
+        background-size: cover;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        /* text-align: center; */
+        color: #21036c;
+    }
+
+    .about-section {
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.212) 50%, rgba(180, 176, 176, 0) 50%), url('Media/AI.png') center fixed;
+        background-size: cover;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        font-family: Arial;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    .about-section #aboutme {
+        font-size: 40px;
+        font-weight: 100;
+        line-height: 5px;
+    }
+
+
+    .about-section p span {
+        font-size: 22px;
+        color: #7139ff;
+    }
+
+    .about-section h3,
+    .about-section p {
+        width: 40%;
+        text-align: justify;
+    }
+
+    .about-section h1 {
+        width: 40%;
+        text-align: center;
+        font-weight: 100;
+        color: #21036c;
+    }
+
+    .about-section h3 {
+        color: #21036c;
+        font-weight: 100;
+        font-family: Arial;
+        font-size: 30px;
+    }
+
+    .portfolio-section {
+        background: linear-gradient(to right, rgba(255, 253, 253, 0) 50%, rgba(0, 0, 0, 0.212) 50%), url('Media/none.jpg') center fixed;
+        background-size: cover;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        color: #ffffff;
+        position: relative;
+        padding: 0;
+    }
+
+    #projects {
+        /* position: absolute; */
+        top: 0%;
+        left: 0%;
+        width: 50%;
+        padding: 30px;
+    }
+
+    .tiles {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        row-gap: 30px;
+        column-gap: 20px;
+    }
+
+    .project-tile img {
+        width: 200px;
+        height: 200px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 3px 3px rgb(52, 52, 53);
+    }
+
+    .portfolio-section h1 {
+        font-size: 40px;
+        font-weight: 100;
+        line-height: 5px;
+        color: #21036c;
+    }
+
+    .portfolio-section p {
+        width: 60%;
+        text-align: justify;
+    }
+
+    .portfolio-section span {
+        color: #7139ff;
+        font-size: 22px;
+    }
+
+    .portfolio-section div#para {
+        width: 50%;
+        text-align: end;
+    }
+
+    .portfolio-section div#para {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .certificates-section {
+        background: linear-gradient(rgba(0, 0, 0, 0.212), rgba(0, 0, 0, 0.212)), url('Media/none.jpg') center fixed;
+        background-size: cover;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    .certificates-section h1 {
+        font-size: 40px;
+        font-weight: 100;
+        line-height: 5px;
+        color: #21036c;
+    }
+
+    /* Basic styling for the slider container */
+    .slider-container {
+        width: 75%;
+        margin: auto;
+        overflow: hidden;
+        position: relative;
+        border: 5px solid #3c1297;
+        border-radius: 8px;
+        object-fit: cover;
+        min-height: 20%;
+    }
+
+
+    .slider-container img {
+        width: 80%;
+        max-height: 60%;
+        object-fit: contain;
+    }
+
+    /* Styling for the individual slides */
+    .slides {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+    }
+
+    /* Styling for each certificate card */
+    .certificate-card {
+        width: 50%;
+        flex: 0 0 auto;
+        box-sizing: border-box;
+        padding: 20px;
+        text-align: center;
+    }
+
+    /* Navigation buttons */
+    .prev,
+    .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -22px;
+        font-size: 20px;
+        color: #333;
+        user-select: none;
+    }
+
+    .next {
+        right: 0;
+    }
+
+    /* Responsive design */
+    @media (max-width: 768px) {
+        .certificate-card {
+            padding: 10px;
+        }
+    }
+
+    /* utility class */
+    .title {
+        color: #21036c;
+        font-family: Arial;
+        font-size: 25px;
+        font-weight: 100;
+        line-height: 20px;
+    }
+
+    .certificate-card p {
+        padding-bottom: 10px;
+    }
+
+    .contact-section {
+        background: linear-gradient(rgba(255, 253, 253, 0), rgba(0, 0, 0, 0.212)), url('Media/none.jpg') center fixed;
+        background-size: cover;
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-around;
+        color: #ffffff;
+        position: relative
+    }
+
+    .contact-section h1 {
+        font-size: 40px;
+        font-weight: 100;
+        line-height: 5px;
+        color: #21036c;
+    }
+
+    #contact img {
+        height: 50px;
+        width: 50px;
+        padding: 10px;
+        transition: transform 1s;
+    }
+
+    #contact img:hover {
+        transform: scale(1.2);
+    }
+
+    .links {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .resume .btn {
+        border: 2px solid rgb(5, 0, 0);
+        border-radius: 50px;
+        width: 100px;
+        height: 50px;
+        background: rgb(255, 255, 255);
+        font-family: sans-serif;
+        font-size: 20px;
+    }
+
+
+    footer {
+        text-align: center;
+        color: #0b0b0b;
+    }
+
+    .contact-section p,
+    .certificates-section p,
+    .about-section p,
+    .portfolio-section p {
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 1420px) {
     .project-tile img {
         width: 180px;
         height: 180px;
     }
 }
+
 @media screen and (max-width: 1300px) {
     .project-tile img {
         width: 160px;
         height: 170px;
     }
 }
+
 @media screen and (max-width: 1175px) {
     .project-tile img {
         width: 150px;
         height: 160px;
     }
 }
+
 @media screen and (max-width: 1117px) {
     .project-tile img {
         width: 150px;
@@ -37,24 +1952,27 @@
         font-size: 100px;
         line-height: 90px;
     }
-    
+
     .typerwiter {
         font-size: 35px;
     }
-    
-    .info > p:first-of-type {
+
+    .info>p:first-of-type {
         font-size: 35px;
     }
-    span:is(#name){
+
+    span:is(#name) {
         font-size: 45px;
     }
+
     #def {
         font-size: 27px;
     }
-    span:is(#line){
+
+    span:is(#line) {
         font-size: 27px;
     }
-    
+
 }
 
 @media screen and (max-width: 1000px) {
@@ -63,7 +1981,7 @@
         display: none;
     }
 
-    #hamburger-nav{
+    #hamburger-nav {
         display: flex;
     }
 
@@ -71,22 +1989,25 @@
         font-size: 80px;
         line-height: 80px;
     }
-    
+
     .typerwiter {
         line-height: 0px;
         font-size: 30px;
     }
-    
-    .info > p:first-of-type {
+
+    .info>p:first-of-type {
         font-size: 30px;
     }
-    span:is(#name){
+
+    span:is(#name) {
         font-size: 40px;
     }
+
     #def {
         font-size: 25px;
     }
-    span:is(#line){
+
+    span:is(#line) {
         font-size: 25px;
     }
 }
@@ -102,11 +2023,13 @@
         padding-left: 500px;
         color: #21036c;
     }
+
     .info {
         position: relative;
         top: 0;
         margin-left: 15px;
     }
+
     #def {
         text-align: left;
     }
