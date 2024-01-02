@@ -12,7 +12,8 @@ body {
 }
 
 html {
-    min-width: 730px;
+    /* min-width: 730px; */
+    font-size: 1em;
 }
 
 header {
@@ -24,8 +25,9 @@ header {
     top: 0px;
     width: 100vw;
     z-index: 999;
-    height: 40px;
-    font-size: 18px;
+    /* height: 5%; */
+    font-size: 1.5rem;
+    
 }
 
 /* Desktop Nav */
@@ -62,11 +64,11 @@ nav ul li a {
     text-decoration: none;
     color: #ffffff;
     transition: all .5s;
-    text-decoration-color: #160243;
+    text-decoration-color: #21036c;
 }
 
 nav ul li a:hover {
-    color: #160243;
+    color: #21036c;
     text-decoration: underline;
     text-underline-offset: 5px;
 }
@@ -90,7 +92,6 @@ nav .ham-logo img{
 .ham-menu {
     position: relative;
     display: inline-block;
-    
 }
 .ham-icon {
     display: flex;
@@ -129,9 +130,10 @@ nav .ham-logo img{
     text-decoration: none;
     color: #160243;    
     transition: all 0.3s;
+    font-size: 1.5rem;
 }
 .menu-links.open {
-    max-height: 300px;
+    max-height: 500px;
 }
 .ham-icon.open span:first-child {
     transform: rotate(45deg) translate(10px, 4px);
@@ -168,6 +170,7 @@ span:is(#hello, #world) {
 }
 #hello {
     font-weight:lighter;
+    color: #ffffff;
 }
 
 .typerwiter {
@@ -248,12 +251,12 @@ span:is(#line){
     width: 40%;
     text-align: center;
     font-weight: 100;
-    color: #160243;
+    color: #21036c;
 }
 .about-section h3 {
-    color: #160243;
+    color: #21036c;
     font-weight: 100;
-    text-decoration: underline;
+    font-family: Arial;
 }
 
 .portfolio-section {
@@ -269,7 +272,7 @@ span:is(#line){
 }
 
 #projects {
-    position: absolute;
+    /* position: absolute; */
     top: 0%;
     left: 0%;
     width: 50%;
@@ -294,7 +297,7 @@ span:is(#line){
     font-size: 40px;
     font-weight: 100;
     line-height: 5px;
-    color: #160243;
+    color: #21036c;
 }
 
 .portfolio-section p {
@@ -330,23 +333,26 @@ span:is(#line){
     font-size: 40px;
     font-weight: 100;
     line-height: 5px;
-    color: #160243;
+    color: #21036c;
 }
 
 /* Basic styling for the slider container */
 .slider-container {
-    width: 50%;
+    width: 70%;
     margin: auto;
     overflow: hidden;
     position: relative;
     border: 5px solid #3c1297;
     border-radius: 8px;
     object-fit: cover;
+    min-height: 20%;
 }
 
 
 .slider-container img {
     width: 70%;
+    max-height: 60%;
+    object-fit: contain;
 }
 
 /* Styling for the individual slides */
@@ -390,9 +396,15 @@ span:is(#line){
 
 /* utility class */
 .title {
-    color: #160243;
+    color: #21036c;
+    font-family: Arial;
+    font-size: 25px;
+    font-weight: 100;
+    line-height: 20px;
 }
-
+.certificate-card p{
+    padding-bottom: 10px;
+}
 
 .contact-section {
     background: linear-gradient(rgba(255, 253, 253, 0), rgba(0, 0, 0, 0.212)), url('Media/none.jpg') center fixed;
@@ -409,7 +421,7 @@ span:is(#line){
     font-size: 40px;
     font-weight: 100;
     line-height: 5px;
-    color: #160243;
+    color: #21036c;
 }
 
 #contact img {
@@ -445,5 +457,5 @@ footer {
 }
 
 .contact-section p, .certificates-section p, .about-section p, .portfolio-section p {
-    font-size: 18px;
+    font-size: 1rem;
 }
