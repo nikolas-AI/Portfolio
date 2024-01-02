@@ -338,7 +338,7 @@ span:is(#line){
 
 /* Basic styling for the slider container */
 .slider-container {
-    width: 75%;
+    width: 80%;
     margin: auto;
     overflow: hidden;
     position: relative;
