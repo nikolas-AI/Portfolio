@@ -345,13 +345,11 @@ span:is(#line){
     border: 5px solid #3c1297;
     border-radius: 8px;
     object-fit: cover;
-    min-height: 20%;
 }
 
 
 .slider-container img {
     width: 70%;
-    max-height: 60%;
     object-fit: contain;
 }
 
