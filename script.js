@@ -47,7 +47,7 @@ let currentIndex = 0;
             currentIndex = certificateCards.length - 1;
         }
 
-        const displacement = -currentIndex * 100 + '%';
+        const displacement = -currentIndex * 50 + '%';
         slides.style.transform = 'translateX(' + displacement + ')';
     }
 
