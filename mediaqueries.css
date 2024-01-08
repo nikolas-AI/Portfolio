@@ -1123,7 +1123,7 @@
 
 @media screen and (max-width: 1625px) {
     header {
-        justify-content: center;
+        justify-content: end;
     }
 
     nav .logo img {
@@ -1435,7 +1435,7 @@
         font-size: 1.5rem;
 
     }
-
+    
     /* Desktop Nav */
     nav .logo a {
         text-decoration: none;
