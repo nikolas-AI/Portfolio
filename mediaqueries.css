@@ -208,10 +208,9 @@
         width: auto;
         padding: 16px;
         margin-top: -22px;
-        font-size: 15px;
         color: #fbfbfb;
         user-select: none;
-        font-size: 80px;
+        font-size: 50px;
     }
 
     .next {
@@ -361,7 +360,6 @@
     }
 
     
-
     span:is(#hello, #world) {
         font-size: 200px;
         line-height: 190px;
