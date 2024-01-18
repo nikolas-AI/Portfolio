@@ -1645,10 +1645,10 @@
         font-family: Arial;
         text-align: center;
         color: #ffffff;
-        overflow-y: scroll;
+        /* overflow-y: scroll;
         overflow-x: hidden;
         -ms-overflow-style: none;
-        scrollbar-width: none;
+        scrollbar-width: none; */
 
     }
 
@@ -1698,7 +1698,7 @@
         justify-content: flex-end;
         color: #ffffff;
         position: relative;
-        padding: 0;
+        /* padding: 0; */
     }
 
     #projects {
@@ -1846,7 +1846,7 @@
     .contact-section {
         background: linear-gradient(rgba(255, 253, 253, 0), rgba(0, 0, 0, 0.212)), url('Media/none.jpg') center fixed;
         background-size: cover;
-        height: 40vh;
+        min-height: 40vh;
         display: flex;
         flex-direction: column;
         text-align: center;
