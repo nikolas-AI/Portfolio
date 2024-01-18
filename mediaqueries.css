@@ -27,7 +27,6 @@
         font-size: 45px;
     }
 
-
     span:is(#hello, #world) {
         font-size: 220px;
         line-height: 200px;
@@ -60,18 +59,16 @@
         font-size: 50px;
     }
 
-
-
     .about-section {
         background: linear-gradient(to right, rgba(0, 0, 0, 0.212) 50%, rgba(180, 176, 176, 0) 50%), url('Media/AI.png') center fixed;
         background-size: cover;
-        height: calc(100%);
+        min-height: calc(100%);
         display: flex;
         align-items: center;
         font-family: Arial;
         text-align: center;
         color: #ffffff;
-        padding-top: 70px;
+        padding-top: 100px;
         /* overflow: scroll; */
     }
 
@@ -100,23 +97,23 @@
     .portfolio-section {
         background: linear-gradient(to right, rgba(255, 253, 253, 0) 50%, rgba(0, 0, 0, 0.212) 50%), url('Media/none.jpg') center fixed;
         background-size: cover;
-        height: calc(100vh + 250px);
+        min-height: calc(100vh );
         display: flex;
         align-items: center;
         justify-content: flex-end;
         color: #ffffff;
         position: relative;
-        padding: 0;
-        overflow-y: scroll;
-        overflow-x: hidden;
+        padding-top: 4.5vw;
+        /* overflow-y: hidden; */
+        /* overflow-x: hidden;
         -ms-overflow-style: none;
-        scrollbar-width: none;
+        scrollbar-width: none; */
 
     }
 
-    .portfolio-section::-webkit-scrollbar {
+    /* .portfolio-section::-webkit-scrollbar {
         display: none;
-    }
+    } */
 
 
     .project-tile img {
@@ -158,12 +155,12 @@
     .certificates-section {
         background: linear-gradient(rgba(0, 0, 0, 0.212), rgba(0, 0, 0, 0.212)), url('Media/none.jpg') center fixed;
         background-size: cover;
-        height: 120%;
+        min-height: calc(110vh);
         display: flex;
         flex-direction: column;
         text-align: center;
         color: #ffffff;
-        padding-top: 70px;
+        padding-top: 100px;
     }
 
     .certificates-section h1 {
@@ -211,7 +208,7 @@
         width: auto;
         padding: 16px;
         margin-top: -22px;
-        font-size: 20px;
+        font-size: 15px;
         color: #fbfbfb;
         user-select: none;
         font-size: 80px;
@@ -230,12 +227,10 @@
         line-height: 60px;
     }
 
-
-
     .contact-section {
         background: linear-gradient(rgba(255, 253, 253, 0), rgba(0, 0, 0, 0.212)), url('Media/none.jpg') center fixed;
         background-size: cover;
-        height: 40vh;
+        min-height: 40vh;
         display: flex;
         flex-direction: column;
         text-align: center;
@@ -257,8 +252,6 @@
     #contact img:hover {
         transform: scale(1.2);
     }
-
-
 
     .resume .btn {
         border: 2px solid rgb(5, 0, 0);
@@ -285,6 +278,7 @@
         font-size: 50px;
     }
 }
+
 
 
 
@@ -452,7 +446,7 @@
     .home-section {
         background: linear-gradient(rgba(0, 0, 0, 0.088), rgba(0, 0, 0, 0.212)), url('Media/1m.png') center fixed;
         background-size: cover;
-        height: 100vh;
+        /* height: 100vh; */
         display: flex;
         align-items: center;
         justify-content: start;
@@ -463,7 +457,7 @@
     .about-section {
         background: linear-gradient(to right, rgba(0, 0, 0, 0.212) 50%, rgba(180, 176, 176, 0) 50%), url('Media/AI.png') center fixed;
         background-size: cover;
-        height: calc(100%);
+        /* height: calc(100%); */
         display: flex;
         align-items: center;
         font-family: Arial;
@@ -507,7 +501,7 @@
     .certificates-section {
         background: linear-gradient(rgba(0, 0, 0, 0.212), rgba(0, 0, 0, 0.212)), url('Media/none.jpg') center fixed;
         background-size: cover;
-        height: 120%;
+        /* height: 120%; */
         display: flex;
         flex-direction: column;
         text-align: center;
