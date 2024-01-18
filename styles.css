@@ -406,7 +406,7 @@ span:is(#line){
 .contact-section {
     background: linear-gradient(rgba(255, 253, 253, 0), rgba(0, 0, 0, 0.212)), url('Media/none.jpg') center fixed;
     background-size: cover;
-    height: 40vh;
+    min-height: 40vh;
     display: flex;
     flex-direction: column;
     text-align: center;
