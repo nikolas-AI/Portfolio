@@ -222,7 +222,7 @@ span:is(#line){
 .about-section {
     background: linear-gradient(to right, rgba(0, 0, 0, 0.212) 50%, rgba(180, 176, 176, 0) 50%), url('Media/AI.png') center fixed;
     background-size: cover;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     font-family: Arial;
@@ -235,7 +235,6 @@ span:is(#line){
     font-weight: 100;
     line-height: 5px;
 }
-
 
 .about-section p span {
     font-size: 20px;
@@ -262,7 +261,7 @@ span:is(#line){
 .portfolio-section {
     background: linear-gradient(to right, rgba(255, 253, 253, 0) 50%, rgba(0, 0, 0, 0.212) 50%), url('Media/none.jpg') center fixed;
     background-size: cover;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -322,7 +321,7 @@ span:is(#line){
 .certificates-section {
     background: linear-gradient(rgba(0, 0, 0, 0.212), rgba(0, 0, 0, 0.212)), url('Media/none.jpg') center fixed;
     background-size: cover;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -457,3 +456,7 @@ footer {
 .contact-section p, .certificates-section p, .about-section p, .portfolio-section p {
     font-size: 1rem;
 }
+
+/* section {
+    padding: 100px;
+} */
