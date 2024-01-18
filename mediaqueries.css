@@ -1639,7 +1639,7 @@
     .about-section {
         background: linear-gradient(to right, rgba(0, 0, 0, 0.212) 50%, rgba(180, 176, 176, 0) 50%), url('Media/AI.png') center fixed;
         background-size: cover;
-        height: 100vh;
+        min-height: 100vh;
         display: flex;
         align-items: center;
         font-family: Arial;
@@ -1692,13 +1692,12 @@
     .portfolio-section {
         background: linear-gradient(to right, rgba(255, 253, 253, 0) 50%, rgba(0, 0, 0, 0.212) 50%), url('Media/none.jpg') center fixed;
         background-size: cover;
-        height: 100vh;
+        min-height: 100vh;
         display: flex;
         align-items: center;
         justify-content: flex-end;
         color: #ffffff;
         position: relative;
-        /* padding: 0; */
     }
 
     #projects {
@@ -1757,7 +1756,7 @@
     .certificates-section {
         background: linear-gradient(rgba(0, 0, 0, 0.212), rgba(0, 0, 0, 0.212)), url('Media/none.jpg') center fixed;
         background-size: cover;
-        height: 100vh;
+        min-height: 100vh;
         display: flex;
         flex-direction: column;
         text-align: center;
@@ -1927,27 +1926,6 @@
     }
 }
 
-@media screen and (max-width: 1175px) {
-    .project-tile img {
-        width: 150px;
-        height: 160px;
-    }
-}
-
-@media screen and (max-width: 1117px) {
-    .project-tile img {
-        width: 150px;
-        height: 145px;
-    }
-}
-
-@media screen and (max-width: 775px) {
-    .project-tile img {
-        width: 140px;
-        height: 140px;
-        column-gap: 10px;
-    }
-}
 
 @media screen and (max-width: 1200px) {
 
@@ -1976,7 +1954,28 @@
         font-size: 27px;
     }
 
+    .portfolio-section {
+        padding-top: 0;
+    }
+
 }
+
+
+@media screen and (max-width: 1175px) {
+    .project-tile img {
+        width: 150px;
+        height: 160px;
+    }
+}
+
+@media screen and (max-width: 1117px) {
+    .project-tile img {
+        width: 150px;
+        height: 145px;
+    }
+}
+
+
 
 @media screen and (max-width: 900px) {
 
@@ -2013,9 +2012,6 @@
     span:is(#line) {
         font-size: 25px;
     }
-}
-
-@media screen and (max-width: 900px) {
 
     .home-section {
         background: linear-gradient(rgba(0, 0, 0, 0.088), rgba(0, 0, 0, 0.212)), url('Media/1sftd.png') center fixed;
@@ -2045,5 +2041,13 @@
 
     .home-section {
         padding-left: 400px;
+    }
+}
+
+@media screen and (max-width: 775px) {
+    .project-tile img {
+        width: 140px;
+        height: 140px;
+        column-gap: 10px;
     }
 }
