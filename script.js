@@ -51,3 +51,5 @@ let currentIndex = 0;
         slides.style.transform = 'translateX(' + displacement + ')';
     }
 
+
+    
