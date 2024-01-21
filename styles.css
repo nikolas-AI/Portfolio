@@ -451,7 +451,14 @@ span:is(#line){
 footer {
     text-align: center;
     color: #0b0b0b;
+    background-color: rebeccapurple;
+    position: relative;
+    bottom: 0px;
+    margin-bottom: -20px;
 }
+
+
+
 
 .contact-section p, .certificates-section p, .about-section p, .portfolio-section p {
     font-size: 1rem;
