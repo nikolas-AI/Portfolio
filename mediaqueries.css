@@ -1563,12 +1563,9 @@
         transform: none;
     }
 
-
-
     section {
         padding: 50px 20px;
     }
-
 
     span:is(#hello, #world) {
         font-size: 120px;
@@ -1977,15 +1974,8 @@
 
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 950px) {
 
-    #desk-nav {
-        display: none;
-    }
-
-    #hamburger-nav {
-        display: flex;
-    }
 
     span:is(#hello, #world) {
         font-size: 80px;
@@ -2041,6 +2031,14 @@
 
     .home-section {
         padding-left: 400px;
+    }
+
+    #desk-nav {
+        display: none;
+    }
+
+    #hamburger-nav {
+        display: flex;
     }
 }
 
