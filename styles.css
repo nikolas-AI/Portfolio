@@ -442,7 +442,7 @@ span:is(#line){
     border-radius: 50px;
     width: 100px;
     height: 50px;
-    background: rgb(255, 255, 255);
+    background: #21036c;
     font-family: sans-serif;
     font-size: 20px;
 }
@@ -450,14 +450,12 @@ span:is(#line){
 
 footer {
     text-align: center;
-    color: #0b0b0b;
-    background-color: rebeccapurple;
+    color: #21036c;
+    background-color: #93d8ff;
     position: relative;
     bottom: 0px;
-    margin-bottom: -20px;
+    margin: -20px 0 -20px 0;
 }
-
-
 
 
 .contact-section p, .certificates-section p, .about-section p, .portfolio-section p {
