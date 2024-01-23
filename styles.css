@@ -371,6 +371,13 @@ span:is(#line){
     text-align: center;
 }
 
+.certificate-card img {
+    transition: all 1s;
+}
+.certificate-card img:hover {
+    transform: scale(1.1);
+}
+
 /* Navigation buttons */
 .prev, .next {
     cursor: pointer;
