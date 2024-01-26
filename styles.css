@@ -463,7 +463,6 @@ span:is(#line){
     transform: scale(1.1);
 }
 
-
 footer {
     text-align: center;
     color: #21036c;
@@ -472,7 +471,6 @@ footer {
     bottom: 0px;
     margin: -20px 0 -20px 0;
 }
-
 
 .contact-section p, .certificates-section p, .about-section p, .portfolio-section p {
     font-size: 1rem;
